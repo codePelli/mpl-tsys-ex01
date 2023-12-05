@@ -31,7 +31,7 @@
 
 ### Videogames
 
-- **Get Video Game by ID**
+- **Get Videogame by ID**
   - Route: `GET /api/video-games/:id`
   - Description: Get information about a specific video game.
   - Response: `{"id": 1, "gameName": "Metal Gear", "platform": "PlayStation"}`
@@ -44,7 +44,7 @@
   - Request: `{"creatorUserId": 1, "videoGameId": 1, "partyName": "Party1"}`
   - Response: `{"id": 1, "creatorUserId": 1, "videoGameId": 1, "partyName": "Party1"}`
 
-- **Search Parties by Video Game**
+- **Search Parties by Videogame**
   - Route: `GET /api/parties/search?videoGameId=1`
   - Description: Search for parties for a specific video game.
   - Response: `[{"id": 1, "creatorUserId": 1, "videoGameId": 1, "partyName": "Party1"}]`
