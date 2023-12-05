@@ -64,7 +64,7 @@
 - **Send Message**
   - Route: `POST /api/messages`
   - Description: Send a message in a party.
-  - Request: `{"userId": 1, "partyId": 1, "content": "Hello, Party1!"}`
+  - Request: `{"userId": 1, "partyId": 1, "content": "Marc here from aprty 1"}`
   - Response: `{"id": 1, "senderUserId": 1, "partyId": 1, "content": "Marc here from aprty 1"}`
 
 - **Edit Message**
